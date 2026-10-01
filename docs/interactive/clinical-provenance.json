@@ -1,0 +1,42 @@
+{
+  "source_selection": {
+    "kind": "completed_run",
+    "relative_run": "runs/20260930T213938Z",
+    "selection": "Recorded latest completed run, then latest available complete run, then source data."
+  },
+  "source_doi": "10.5281/zenodo.10726677",
+  "licence": "CC BY 4.0",
+  "citation": "Martínez Díaz et al. (2024), Atrial Models with Personalized Effective Refractory Period, version 1.0.",
+  "source_sha256": {
+    "data/patient_surface_ep_geometry_w3.npz": "187d8f4f8b0e47631300fd48d98bff511f4d1506c3a0c04b0ddc680edd145284",
+    "data/patient_surface_ep_geometry_w10.npz": "56472b536359a14eba615ea6263a03a152d73d84e748fd1357bc9a670a418439",
+    "data/patient_extension/patient_extension_patient_summary.csv": "436073ad968778dbdc28992b1616d09483f56e3d925403d06e8b65f10dfb1803",
+    "data/patient_extension/patient_extension_patient_capacity.csv": "1278c7fcad179f3f61d60d9d377f9410a58f8fe67e094f86849ecb157543c393"
+  },
+  "mesh": {
+    "patient": "P3",
+    "vertices": 7482,
+    "triangles": 14359,
+    "units": "mm",
+    "topology": "Original source-derived open P3 triangular surface; no additional caps or geometry."
+  },
+  "fields": {
+    "voltage": "Interpolated source clinical bipolar voltage, mV; display saturated at1mV only.",
+    "reference": "Original threshold-anchored score b(V)=2^(-V/0.1mV).",
+    "graph3": "Stored graph reconstruction, 3mm left-PV blackout; score=clip((1+u)/2,0,1).",
+    "graph10": "Stored graph reconstruction,10mm left-PV blackout; score=clip((1+u)/2,0,1).",
+    "observed3": "Forcing/confidence converted to score at observed nodes; any triangle with an unsupported node is displayed grey.",
+    "observed10": "Same definition with10mm blackout."
+  },
+  "rendering": "Offline WebGL with actual indexed mesh, linearly interpolated nodal values, and mild two-sided lighting. Canvas fallback uses triangle means. Pointer values use barycentric interpolation on the foremost triangle.",
+  "quantisation": "Positions, normals and scalar fields stored asFloat32 for browser delivery; triangle indices unchanged UInt16.",
+  "withheld_outline": "Blackout-mask boundary constructed at midpoints of mesh edges crossing the stored Boolean mask.",
+  "metrics": "54 stored patient-summary records:6patients×3methods×3widths; mesh_level=0,pseudo_dt=.01. RMSE and Dice evaluated on fixed common3mm support. Patient summaries average left/right PV withholding experiments. Capacity errors use the fixed analysis domain.",
+  "patient_operator": "Isotropic surface reconstruction and isotropic surface EP; no patient fibre field inferred.",
+  "scope": "Stored reconstruction fields, not a live parameterized PDE solution. Clinical EP discussed alongside these fields is exploratory forward simulation, not measured activation.",
+  "numerical_integrity": {
+    "source_arrays_changed": false,
+    "mesh_decimation": false,
+    "new_fitted_models": false
+  }
+}
