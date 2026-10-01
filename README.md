@@ -61,5 +61,3 @@ python code/build_ring_interactive.py
 Clinical anatomy and voltage data: Martínez Díaz et al. (2024), [Zenodo](https://doi.org/10.5281/zenodo.10726677), CC BY 4.0. [Data attribution](docs/images/DATA_ATTRIBUTION.md).
 
 EP Team: Andrej Novak, Ivan Zeljkovic, Ante Lisicic, Ana Jordan, Nikola Pavlovic, Sime Manola
-
-EP Team: Andrej Novak, Ivan Zeljkovic, Ante Lisicic, Ana Jordan, Nikola Pavlovic, Sime Manola
