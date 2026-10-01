@@ -1,1 +1,0 @@
-window.RESEARCH_REPOSITORY = "";
