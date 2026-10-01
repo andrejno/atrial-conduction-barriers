@@ -8,7 +8,7 @@ This study reconstructs continuous atrial barrier fields from incomplete observa
 
 [![Clinical atrial substrate](docs/images/patient_reconstruction_rotation.webp)](docs/index.html)
 
-## Reproduce
+## Run
 
 ```bash
 python -m pip install -r requirements.txt
