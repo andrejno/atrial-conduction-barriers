@@ -34,3 +34,5 @@ python code/set_github_url.py USERNAME/REPOSITORY
 ```
 
 After a run with `--media`, `python code/build_clinical_interactive.py` and `python code/build_ring_interactive.py` rebuild the interactive viewers from the saved results.
+
+EP Team: Andrej Novak, Ivan Zeljkovic, Ante Lisicic, Ana Jordan, Nikola Pavlovic, Sime Manola
