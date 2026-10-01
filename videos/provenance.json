@@ -1,0 +1,29 @@
+{
+  "transformation": "H.264 previews, resized to 1280 by 720; source timing and scientific content retained.",
+  "files": [
+    {
+      "file": "patient_reconstruction_rotation.mp4",
+      "bytes": 491458,
+      "source_sha256": "f2bd866e78dce6ae4c9a021d4b908edbe7f01bfb8e23c1c555ee104b0049943a",
+      "sha256": "8980e0d1a1d03be27d9a07e51399a878ed5e9997a9a5c7e3ded544f218582659"
+    },
+    {
+      "file": "patient_voltage_propagation.mp4",
+      "bytes": 202264,
+      "source_sha256": "55cb573c013beb2074a9037b5c11dd8f21d2228d07bb36f32d27408be6a37399",
+      "sha256": "0e225ad78932225ae5ef14ba7bfe1c9fc32a9722faab7f576d7548e617526414"
+    },
+    {
+      "file": "rings_closed_contour.mp4",
+      "bytes": 182469,
+      "source_sha256": "78aa31cd8401792e78895e8ac3fa676f546e085160d4fb131366250970306677",
+      "sha256": "a4e0003682d5a7c2bb7a12ef4a394ae66b35d487dc5d1f67c03039ac531b02ac"
+    },
+    {
+      "file": "rings_matched_conductance.mp4",
+      "bytes": 155777,
+      "source_sha256": "51ed684a32dc1e9062e3c7e2fff557b3263c2cea40c0bc803af83dfa5e1decc2",
+      "sha256": "7dfbcba5d6c46ffbf1402c1e9e0798bfea3100f43f80fef6c60168d70cbbee34"
+    }
+  ]
+}
